@@ -1,3 +1,71 @@
-p {
+body {
+    display: flex;
+    margin: 0;
+    background-color: #3A3838;
+    font-family: "Source Sans";
+}
+
+@font-face {
+    font-family: "Photograph Signature";
+    src: url(fonts/Photograph-Signature.ttf);
+}
+
+@font-face {
+    font-family: "Source Sans";
+    src: url(fonts/SourceSans3-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Source Sans";
+    src: url(fonts/SourceSans3-Bold.ttf);
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "Source Sans";
+    src: url(fonts/SourceSans3-Italic.ttf);
+    font-style: italic;
+}
+
+#leftPanel {
+    width: 37.2vw;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+#rightPanel {
+    width: 62.8vw;
+    height: 100vh;
+    background-color: white;
+}
+
+#logo {
+    height: 14.8vh;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    padding: 10px;
+    justify-content: center;
+    gap: 3vh;
+    margin-top: 22vh;
+}
+
+#logo-text {
+    color: white;
+    font-size: 12vh;
+    align-self: center;
+    font-family: "Photograph Signature";
     
+}
+
+#credits {
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 60vh;
+}
+
+#credits > a:visited {
+    color: white;
 }
