@@ -17,6 +17,46 @@
         </div>
         <div id="background-credits"></div>
     </div>
-    <div id="rightPanel">hey</div>
+    <div id="rightPanel">
+        <div id="rightPanelTop">
+           <p>
+            The form below is to register your interest in acquiring a brand-new free Ferrari. This is totally legit.
+            Sign up <em>now</em> to get started.
+            </p>
+           <p>You <em>know</em> you want to.</p>
+        </div>
+        <div id="rightPanelForm">
+            <p>Let's do this!</p>
+            <form action="submit" method="post">
+                <div>
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name" name="firstName" required placeholder="John" minlength="2" maxlength="50">
+                </div>
+                <div>
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" id="last-name" name="lastName" required placeholder="Doe" minlength="2" maxlength="50">
+                </div>
+                <div>
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="userEmail" required placeholder="johndoe@example.com">
+                </div>
+                <div>
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="tel" id="phone-number" name="phoneNumber" required placeholder="07795586220" min="11" max="11">
+                </div>
+                <div>
+                    <label for="pwd">PASSWORD</label>
+                    <input type="password" id="pwd" name="password" required minlength="5" maxlength="20">
+                </div>
+                <div>
+                    <label for="pwd-confirmation">CONFIRM PASSWORD</label>
+                    <input type="password" id="pwd-confirmation" name="passwordConfirmation" required minlength="5" maxlength="20">
+                </div>
+                <div></div>
+        </div>
+        <div id="rightPanelBottom">
+
+        </div>
+    </div>
 </body>
 </html>

@@ -18,13 +18,20 @@ body {
 @font-face {
     font-family: "Source Sans";
     src: url(fonts/SourceSans3-Bold.ttf);
-    font-style: bold;
+    font-weight: bold;
 }
 
 @font-face {
     font-family: "Source Sans";
     src: url(fonts/SourceSans3-Italic.ttf);
     font-style: italic;
+}
+
+@font-face {
+    font-family: "Source Sans";
+    src: url(fonts/SourceSans3-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
 }
 
 #leftPanel {
@@ -37,7 +44,9 @@ body {
 #rightPanel {
     width: 62.8vw;
     height: 100vh;
-    background-color: white;
+    background-color: #f9fafb;
+    display: flex;
+    flex-direction: column;
 }
 
 #logo {
@@ -48,7 +57,7 @@ body {
     padding: 10px;
     justify-content: center;
     gap: 3vh;
-    margin-top: 22vh;
+    margin-top: 20vh;
 }
 
 #logo-text {
@@ -56,12 +65,11 @@ body {
     font-size: 12vh;
     align-self: center;
     font-family: "Photograph Signature";
-    
 }
 
 #credits {
     color: white;
-    font-family:'Courier New', Courier, monospace;
+    /* font-family:'Courier New', Courier, monospace; */
     text-align: center;
     margin-top: 60vh;
     font-size: 16px;
@@ -69,4 +77,36 @@ body {
 
 #credits > a:visited {
     color: white;
+}
+
+#rightPanelTop {
+    height: 36.1vh;
+    font-size: 3vh;
+    text-align:left;
+    padding-top: 10vh;
+    padding-left: 3vw;
+    padding-right: 10vw;
+    box-sizing: border-box;
+}
+
+#rightPanelForm {
+    height: 29.4vh;
+    background-color: white;
+    box-shadow: 0px 5px 5px #cecfd0;
+    padding-left: 3vw;
+    box-sizing: border-box;
+}
+
+#rightPanelForm > p {
+    font-size: 3vh;
+    margin-top: 15px;
+    color: #575e69;
+}
+
+#rightPanelBottom {
+    height: 34.5vh;
+}
+
+#rightPanelTop > p {
+    margin-bottom: 0px;
 }
