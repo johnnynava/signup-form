@@ -163,3 +163,17 @@ label {
 button:hover {
     cursor: pointer;
 }
+
+#pwd-confirmation {
+    margin-right: 230px;
+}
+
+.error {
+    border-color: red;
+}
+
+.errorText {
+    font-size: 1.4vh;
+    color: red;
+    margin-top: -0.5vh;
+}
