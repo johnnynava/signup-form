@@ -13,7 +13,7 @@ button.addEventListener("click", (e) => {
         pwdConfirmation.classList.add("error");
         form.appendChild(errorText);
     }
-    else {
+    else if (pwd.classList.contains("error")){
         pwd.classList.remove("error");
         pwdConfirmation.classList.remove("error");
         form.removeChild(errorText);
