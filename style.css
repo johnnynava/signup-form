@@ -69,7 +69,6 @@ body {
 
 #credits {
     color: white;
-    /* font-family:'Courier New', Courier, monospace; */
     text-align: center;
     margin-top: 60vh;
     font-size: 16px;
@@ -99,23 +98,65 @@ body {
 
 #rightPanelForm > p {
     font-size: 3vh;
-    margin-top: 15px;
+    margin-top: 1.8vh;
     color: #575e69;
+    margin-bottom: 0.6vh;
 }
 
 #rightPanelBottom {
     height: 34.5vh;
+    position: relative;
 }
 
 #rightPanelTop > p {
     margin-bottom: 0px;
 }
 
-#submit {
+/* #submit {
     position: relative;
-}
+} */
 
 button {
     position: absolute;
-    top: 8vh;
+    top: 68vh;
+    right: 48.5vw;
+    background-color: #c6252b;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 2vh;
+    padding: 10px 40px;
+    box-shadow: 1px 5px 5px #cecfd0;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+input {
+    margin-right: 50px;
+    width: 18.1vw;
+    margin-bottom: 0.8vh;
+    font-size: 2vh;
+    border-color: lightgrey;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+label {
+    font-size: 1.5vh;
+    color: darkslategrey;
+}
+
+#rightPanelBottom > p {
+    position: absolute;
+    left: 3vw;
+    top: 7vh;
+}
+
+#rightPanelBottom > p > strong > a {
+    text-decoration: none;
+    color: #c6252b;
 }
