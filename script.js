@@ -7,7 +7,7 @@ const errorText = document.createElement("p");
 errorText.textContent = "*Passwords do not match";
 errorText.classList.add("errorText");
 
-button.addEventListener("click", (e) => {
+button.addEventListener("click", () => {
     if (pwd.value !== pwdConfirmation.value){
         pwd.classList.add("error");
         pwdConfirmation.classList.add("error");
